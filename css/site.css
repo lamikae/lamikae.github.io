@@ -84,15 +84,17 @@ ul {
 	width: auto;
 }
 #frontpage sub {
-	font-size: 0.75em;
+	font-size: 0.95em;
+	font-style: italic;
+	text-decoration: underline;
 }
 #frontpage h2 {
 	/*text-transform: uppercase;*/
 	font-style: italic;
 	font-size: 2em;
-	margin: 1em 0;
+	margin: 1em 0 0;
 	width: 100%;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 #frontpage h3 {
 	font-style: italic;
@@ -123,7 +125,7 @@ ul {
 	color: #222;
 }
 #email {
-	width: 400px;
+	margin: 0 1em 2em 0;
 }
 .gecos {
 	width: auto !important;
@@ -140,21 +142,21 @@ ul {
 	width: 100%;
 }
 #gecosleft {
-	width: 50% !important;
-	float: right;
+	float: left;
 	text-align: right;
 	margin: 0 !important;
 }
 #gecosright {
 	width: auto !important;
 	float: right;
+	margin: 0 !important;
 }
 #gecosright img {
-	width: 100px;
+	width: 150px;
 	height: auto;
 	float: right;
 	top: 0;
-	margin: 0 0.5em;
+	margin: 0;
 }
 #gecosleft span {
 	font-style: italic;

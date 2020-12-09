@@ -1,3 +1,7 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
 #bg-layer {
 	background: url('images/bg/freelancing.jpg') no-repeat center center fixed;
 	min-width:100%; min-height:100%; width:auto; height:auto;
